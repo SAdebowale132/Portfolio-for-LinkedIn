@@ -117,7 +117,7 @@ body {
 }
 
 .hero h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
     margin-bottom: 1.5rem;
     font-weight: 600;
@@ -206,9 +206,10 @@ body {
 }
 
 .image-placeholder {
-    width: 400px;
-    height: 50vh;
-    background-image: url(myself2.jpg);
+    width: 500px;
+    height: 60vh;
+    margin-top: 10%;
+    background-image: url(myself.jpg);
     /* background: var(--background-alt); */
     /* border: 3px dashed var(--border); */
     object-fit: cover;
@@ -518,8 +519,8 @@ section {
 
     .nav-menu.active {
         left: 0;
-        background-color: #113b97;
-        /* color: var(--background); */
+        background-color: #4c76d0;
+        color: var(--background);
 
     }
 
@@ -550,8 +551,8 @@ section {
     }
 
 }
-/* 
 
+/* 
 @media (max-width: 480px) {
     .hero h1 {
         font-size: 2rem;
