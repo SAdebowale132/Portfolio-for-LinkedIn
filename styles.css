@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-logo a {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
     text-decoration: none;
@@ -88,7 +88,7 @@ body {
 }
 
 .hamburger span {
-    width: 25px;
+    width: 30px;
     height: 4px;
     background: var(--text-color);
     margin: 3px 0;
